@@ -1,0 +1,56 @@
+PODS:
+  - MBProgressHUD (0.9)
+  - OMGHTTPURLRQ (2.0.1):
+    - OMGHTTPURLRQ/RQ
+    - OMGHTTPURLRQ/UserAgent
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/RQ (2.0.1):
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (2.0.1):
+    - OMGHTTPURLRQ/UserAgent
+  - PromiseKit (0.9.17):
+    - PromiseKit/NSNotificationCenter
+    - PromiseKit/NSURLConnection
+    - PromiseKit/Pause
+    - PromiseKit/UIActionSheet
+    - PromiseKit/UIAlertView
+    - PromiseKit/UIView
+    - PromiseKit/UIViewController
+    - PromiseKit/Until
+    - PromiseKit/When
+  - PromiseKit/NSNotificationCenter (0.9.17):
+    - PromiseKit/Promise
+  - PromiseKit/NSURLConnection (0.9.17):
+    - OMGHTTPURLRQ
+    - PromiseKit/Promise
+  - PromiseKit/Pause (0.9.17):
+    - PromiseKit/Promise
+  - PromiseKit/Promise (0.9.17)
+  - PromiseKit/UIActionSheet (0.9.17):
+    - PromiseKit/Promise
+  - PromiseKit/UIAlertView (0.9.17):
+    - PromiseKit/Promise
+  - PromiseKit/UIView (0.9.17):
+    - PromiseKit/Promise
+  - PromiseKit/UIViewController (0.9.17):
+    - PromiseKit/Promise
+  - PromiseKit/Until (0.9.17):
+    - PromiseKit/Promise
+    - PromiseKit/When
+  - PromiseKit/When (0.9.17):
+    - PromiseKit/Promise
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - PromiseKit (from `https://github.com/mxcl/PromiseKit.git`)
+
+EXTERNAL SOURCES:
+  PromiseKit:
+    :git: https://github.com/mxcl/PromiseKit.git
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  OMGHTTPURLRQ: 4297af2a7f7ca7adb3f8331203001e0fd2dae16f
+  PromiseKit: 55a12816084b94082028612f45110d50cff23067
+
+COCOAPODS: 0.33.1
