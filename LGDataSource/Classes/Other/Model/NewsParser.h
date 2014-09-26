@@ -4,10 +4,10 @@
 //
 
 
-#import "LGAbstractParser.h"
+#import "LGAbstractXMLParser.h"
 
 
-@interface NewsParser : LGAbstractParser
+@interface NewsParser : LGAbstractXMLParser
 
 
 @end

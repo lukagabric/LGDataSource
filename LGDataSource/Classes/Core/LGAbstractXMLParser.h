@@ -21,7 +21,7 @@
 #define bindDouble(obj)   obj = [_elementValue doubleValue]
 
 
-@interface LGAbstractParser : NSObject <NSXMLParserDelegate, LGParserInterface>
+@interface LGAbstractXMLParser : NSObject <NSXMLParserDelegate, LGParserInterface>
 {
     NSDictionary *_attributesDict;
 	NSString *_elementValue;
@@ -42,7 +42,7 @@
 #pragma mark - Protected
 
 
-@interface LGAbstractParser ()
+@interface LGAbstractXMLParser ()
 
 
 - (void)initialize;

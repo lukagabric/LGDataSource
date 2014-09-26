@@ -1,7 +1,13 @@
-#import "LGAbstractParser.h"
+//
+//  Created by Luka Gabrić.
+//  Copyright (c) 2013 Luka Gabrić. All rights reserved.
+//
 
 
-@implementation LGAbstractParser
+#import "LGAbstractXMLParser.h"
+
+
+@implementation LGAbstractXMLParser
 {
 	NSMutableString *_mElementValue;
 }
