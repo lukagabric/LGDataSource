@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.source       = { :git => 'https://github.com/lukagabric/LGDataSource'}
   s.source_files = "LGDataSource/Classes/Core/*.{h,m}"
-  s.dependency 'PromiseKit', :git => 'https://github.com/mxcl/PromiseKit.git'
+  s.dependency 'PromiseKit'
   s.dependency 'MBProgressHUD'
   s.requires_arc = true
 end
