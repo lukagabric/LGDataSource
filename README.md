@@ -3,9 +3,13 @@ LGDataSource
 
 iOS data fetch and serialization
 
-Install using Cocoapods
+Installation
+------------
+
+Use Cocoapods.
 
 Sample usage:
+------------
 
     self.dataSource = [[LGDataSource alloc] initWithSession:[self session]
                                                  url:@"http://scripting.com/rss.json"
@@ -16,3 +20,5 @@ Sample usage:
     }];
 
 Parser needs to conform to LGParserInterface.
+
+See sample app for more details.
